@@ -17,3 +17,8 @@ Thumbs.db
 
 # 本地迁移/存档临时文件
 _migrated_*.json
+
+# 临时构建输出（electron-builder 绕开锁定目录时用）
+release/
+_verify/
+dist2/
