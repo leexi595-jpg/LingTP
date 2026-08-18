@@ -25,7 +25,11 @@ LingTP（原名 NetTopo）面向运维 / 网工，用于快速绘制、归档和
 
 ### 方式一：直接使用（推荐普通用户）
 
-获取安装包 `LingTP-Setup-x.x.x.exe`（见 Releases 或向维护者索取），双击安装即可。
+下载最新安装包并双击安装即可：
+
+- **最新版 v1.2.2**：[LingTP-Setup-1.2.2.exe](https://github.com/leexi595-jpg/LingTP/releases/download/v1.2.2/LingTP-Setup-1.2.2.exe)
+- 全部历史版本见 [Releases](https://github.com/leexi595-jpg/LingTP/releases)
+
 首次启动会自动扫描旧版数据目录并询问是否恢复。
 
 ### 方式二：从源码运行（开发者）
