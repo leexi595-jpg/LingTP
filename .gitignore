@@ -1,0 +1,19 @@
+# 依赖与构建产物（体积巨大，禁止入库）
+node_modules/
+dist/
+win-unpacked/
+*.exe
+*.7z
+
+# 构建/调试日志
+*.log
+build*.log
+dist-build.log
+.mirror/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 本地迁移/存档临时文件
+_migrated_*.json

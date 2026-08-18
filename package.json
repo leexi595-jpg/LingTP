@@ -1,0 +1,39 @@
+{
+  "name": "lingtp",
+  "version": "1.2.2",
+  "description": "LingTP 网络拓扑管理平台 - 桌面安装版",
+  "main": "index.js",
+  "author": "LingTP",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.lingtp.app",
+    "productName": "LingTP 网络拓扑管理",
+    "copyright": "Copyright © 2026",
+    "files": [
+      "index.js",
+      "LingTP.html",
+      "preload.js"
+    ],
+    "win": {
+      "target": ["nsis"]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "LingTP",
+      "uninstallDisplayName": "LingTP 网络拓扑管理",
+      "language": "2052",
+      "artifactName": "LingTP-Setup-${version}.${ext}"
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.13.3"
+  }
+}
